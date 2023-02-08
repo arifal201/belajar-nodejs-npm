@@ -1,0 +1,15 @@
+{
+  "name": "belajar-membuat-project-nodejs-npm",
+  "version": "1.0.0",
+  "description": "belajar nodejs npm membuat project baru",
+  "main": "index.js",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "belajar-nodejs"
+  ],
+  "author": "arifal hidayat salamulloh",
+  "license": "ISC"
+}
