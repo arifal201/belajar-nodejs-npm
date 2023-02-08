@@ -2,7 +2,10 @@
   "name": "belajar-membuat-project-nodejs-npm",
   "version": "1.0.0",
   "description": "belajar nodejs npm membuat project baru",
-  "main": "index.js",
+  "exports": {
+    "." : "./index.js",
+    "./write" : "./write.js"
+  },
   "type" : "module",
   "scripts": {
     "prestart": "echo 'Before Application Start'",
