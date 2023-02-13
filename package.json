@@ -2,6 +2,10 @@
   "name": "belajar-membuat-project-nodejs-npm",
   "version": "1.0.0",
   "description": "belajar nodejs npm membuat project baru",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifal201/belajar-nodejs-npm"
+  },
   "exports": {
     "." : "./index.js",
     "./write" : "./write.js"
@@ -20,7 +24,8 @@
   "author": "arifal hidayat salamulloh",
   "license": "ISC",
   "dependencies": {
-    "lodash" : "4.17.21"
+    "lodash" : "4.17.21",
+    "belajar-membuat-npm-library-arifal" : "^1.0.0"
   },
   "devDependencies": {
     "moment" : "^2.29.4"
